@@ -1,0 +1,13 @@
+@keyframes saturate-on-load{
+    0% {
+        filter: saturate(0);
+    }
+    100% {
+        filter: saturate(1);
+    }
+}
+
+.saturate{
+    filter: saturate(0);
+    animation: saturate-on-load 1.33s ease-in 1 forwards;
+}

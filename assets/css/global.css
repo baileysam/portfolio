@@ -30,7 +30,7 @@
     text-align: left;
     font-family: Oswald;
     font-size: 3.5em;
-    color: #454f49fa;
+    color: #392E50;
     line-height: 0.9em;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -88,4 +88,10 @@
 
 .content {
     width: 100%;
+}
+
+.hero{
+    background-image: url('./../images/hero.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
 }
