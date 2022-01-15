@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Lato:300');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 220px auto;
+    height: 100%;
+}
+
+.nav {
+    position: sticky;
+    padding: 32px;
+}
+
+.nav__logo {
+    display: block;
+
+    /* Negative offset so logo sits inline with nav */
+    margin-left: -0.06em;
+
+    text-align: left;
+    font-family: Oswald;
+    font-size: 3.5em;
+    color: #454f49fa;
+    line-height: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.nav__items {
+    font-size: 1.3em;
+    list-style-type: none;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-top: 32px;
+    padding-top: 20px;
+    font-family: Lato;
+    color: #777777;
+}
+
+.nav__items__item {
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+.nav__items__item__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__items__item__link:hover {
+    border-bottom: 1px solid #777777;
+}
+
+.social-links {
+    display: block;
+    margin-top: 32px;
+    color: #777777;
+}
+
+.social-links > .fab {
+    font-size: 2em;
+}
