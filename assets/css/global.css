@@ -7,14 +7,18 @@
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 220px auto;
+    display: flex;
     height: 100%;
 }
 
-.nav {
-    position: sticky;
+.header {
+    width: 240px;
     padding: 32px;
+}
+
+.nav {
+    position: fixed;
+    width: inherit;
 }
 
 .nav__logo {
@@ -65,4 +69,23 @@
 
 .social-links > .fab {
     font-size: 2em;
+}
+
+.section__heading{
+    padding: 16px 0;
+    font-size: 2.4em;
+    background: white;
+    font-family: Lato;
+}
+
+.section{
+    display: block;
+    height: 600px;
+    background-color: black;
+
+
+}
+
+.content {
+    width: 100%;
 }
