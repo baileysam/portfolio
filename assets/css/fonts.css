@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'JosefinSans';
+    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'JosefinSans-Bold';
+    src: url('../fonts/JosefinSans-Bold.ttf');
+}

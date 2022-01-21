@@ -7,7 +7,10 @@
     }
 }
 
+
+/* A small animation that saturates the color back in to the image */
+
 .saturate{
     filter: saturate(0);
-    animation: saturate-on-load 1.33s ease-in 1 forwards;
+    animation: saturate-on-load 0.33s ease-in 1 forwards;
 }
