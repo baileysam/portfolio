@@ -6,48 +6,158 @@
     <title>Sam Bailey web development portfolio.</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&family=Bebas+Neue&family=Lato:wght@100&display=swap"
+        rel="stylesheet">
     <link href="assets/css/animations.css" rel="stylesheet">
     <link href="assets/css/global.css" rel="stylesheet" type="text/css" />
-
+    <link href="assets/css/fonts.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="container">
+    <div class="container saturate">
         <header class="header">
-            <nav class="nav">
+
+
+
+            <!-- <nav class="nav">
                 <h2 class="nav__logo saturate">Sam Bailey.</h2>
 
                 <ul class="nav__items">
                     <li class="nav__items__item">
-                        <a class="nav__items__item__link" href="#home">Home</a>
+                        <a class="nav__items__item__link" href="#home">Me</a>
                     </li>
                     <li class="nav__items__item">
-                        <a class="nav__items__item__link" href="#projects">Projects</a>
+                        <a class="nav__items__item__link" href="#projects">Portfolio</a>
                     </li>
                     <li class="nav__items__item">
-                        <a class="nav__items__item__link" href="#contact me">Contact Me</a>
+                        <a class="nav__items__item__link" href="#contact me">Contact</a>
                     </li>
                 </ul>
 
-                <div class="social-links">
+                <div class="social-links saturate">
                     <i class="fab fa-facebook-square"></i>
                     <i class="fab fa-linkedin"></i>
                 </div>
-            </nav>
+            </nav> -->
         </header>
 
         <div class="content">
             <section class="section hero saturate">
-                <h2 class="section__heading">Home</h2>
+                <div class="section__inner">
+                    <div class="hero__branding">
+                        <h2 class="hero__logo saturate">Sam <br> Bailey.</h2>
+                        <span class="hero__brand">Innovative Web development</span>
+                    </div>
+                    <div class="hero__intro">
+                        <span>Welcome To My Portfolio</span>
+                        <p class="hero__opening">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic error, blanditiis velit sed sapiente suscipit quibusdam omnis nesciunt? Enim dolorem</p>
+                    </div>    
+                </div>
             </section>
 
-            <section class="section projects">
-                <h2 class="section__heading">Projects</h2>
+            <section class="section portfolio">
+                <h2 class="section__heading"><i class="fas fa-project-diagram saturate"></i>Portfolio</h2>
+
+                <div class="project-cards">
+                    <div class="project-card">
+                        <img class="project-card__img"
+                            src="https://deadline.com/wp-content/uploads/2020/11/donald-trump-nov-3-white-house-speech-AP.jpg"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 1</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="project-card__img"
+                            src="data:image/jpeg;base64,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"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 2</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="project-card__img"
+                            src="https://www.thenational.scot/resources/images/12946882.jpg?display=1&htype=0&type=responsive-gallery"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 3</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="project--card">
+                        <img class="project-card__img"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMDDSOAn3nq6VkGbE68YRpTaoAqjvd2V1BOA&usqp=CAU"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 4</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="project-card__img"
+                            src="https://deadline.com/wp-content/uploads/2020/11/donald-trump-nov-3-white-house-speech-AP.jpg"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 5</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?</p>
+                        </div>
+
+                    </div>
+
+                    <div class="project-card">
+                        <img class="project-card__img"
+                            src="https://images.theconversation.com/files/307116/original/file-20191216-124027-1je8c0s.jpg?ixlib=rb-1.1.0&rect=63%2C8%2C2700%2C1925&q=45&auto=format&w=926&fit=clip"
+                            alt="Donald Trump">
+
+                        <div class="project-card__text">
+                            <span class="project-card__text__title">Project 6</span>
+                            <p class="project-card__text__description">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Nostrum repellendus eius inventore vitae deleniti! Neque sapiente
+                                laboriosam, delectus libero nesciunt expedita beatae facere. Vero ullam delectus
+                                incidunt eum voluptates recusandae?</p>
+                        </div>
+
+                    </div>
+
 
             </section>
 
             <section class="section contact">
-                <h2 class="section__heading">Contact Me</h2>
+                <h2 class="section__heading"><i class="fas fa-address-book saturate"></i> Contact</h2>
 
             </section>
 
