@@ -1,9 +1,15 @@
 @font-face {
     font-family: 'JosefinSans';
-    src: url('../fonts/JosefinSans-VariableFont_wght.ttf');
+    src: url('../fonts/JosefinSans/JosefinSans-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'JosefinSans-Bold';
-    src: url('../fonts/JosefinSans-Bold.ttf');
+    src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('../fonts/Mulish/Mulish-VariableFont_wght.ttf');
 }
