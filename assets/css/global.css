@@ -15,36 +15,10 @@
     top: 0;
 }
 
-.header {
-    width: 100%; 
-    background-color: #ffffff; 
-    position: fixed;
-    top: 0;
-}
-
-.header__nav{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    display: inline-block;   
-}
-
-.header__nav li{
-    font-family: 'JosefinSans-Bold', sans-serif;
-    text-transform: uppercase;
-    list-style: none;
-    display: inline-block;
-    padding: 16px 124px;
-}
-
-.header__nav__buttons:hover{
-    color: #ff3f34;
-}
-
-.header__nav__buttons__anchor{
-    font-family: 'JosefinSans-Bold', sans-serif;
-    color: #ff3f34;
-    font-family: 1.2em;
+.nav-container{
+    width: 150px;
+    height: 150px;
+    background-color: white;
 }
 
 .hero__logo {
@@ -113,7 +87,7 @@
 
 .section{
     display: block;
-    height: 580px;
+    height: 650px;
     background-color: #ff3f34;
 }
 
@@ -196,30 +170,47 @@
 }
 
 
+
+
+.form-container{
+    height: 450px;
+    width: 590px;
+    margin-left: 26px;
+    padding: 26px 124px;
+}
+
 .form-group{
+    font-size: 2em;
+    font-family: 'JosefinSans-Bold', sans-serif;
+    padding-top: 54px;
+}
+
+.input{
     width: 100%;
-    margin-top: 20px;
-    font-size: 20px;
-    padding: 24px 68px;
+    height: 64px;
 }
 
-.form-group input,
-.form-group textarea {
-    width: 450px;
-    padding: 10px;
-    font-size: 18px;
-    margin-top: 5px;
+.email-container{
+    width: 100%;
+    text-align: center;
+    border-top: solid black 3px;
+    border-bottom: solid black 3px;
 }
 
-.label{
-    height: auto;
-    width: 300px;
-    color: aliceblue;
-    
+.span{
+    font-family: 'Mulish', sans-serif;
+    font-size: 4em;
+    padding: 0 400px;
+    text-align: center;
+
 }
 
 
-
+.my-email{
+    font-family: 'Mulish', sans-serif;
+    font-size: 4.5em;
+    display: block;
+}
 
 
 

@@ -18,26 +18,19 @@
 
 <body>
 
-    <header class="header">
-        <nav>
-            <ul class="header__nav">
-                <li class="header__nav__buttons">
-                    <a class="header__nav__buttons__anchor" href="#me">Me</a>
-                </li>
-                <li class="header__nav__buttons">
-                    <a class="header__nav__buttons__anchor" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="header__nav__buttons">
-                    <a class="header__nav__buttons__anchor" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
 
-    </header>
 
     <div class="container saturate">
 
-
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </div>
 
         <div class="content">
             <section class="section hero saturate">
@@ -201,36 +194,49 @@
 
             <section class="section contact" id="contact">
                 <h2 class="contact-heading"><i class="fas fa-address-book saturate"></i> Contact</h2>
-
                 <div class="form-container">
+
                     <form action="post">
 
                         <div class="form-group">
-                            <label for="your name" class="label"></label>
-                            <input type="name" class="name" name="your Name">
+                            <label for="your name" class="label">Tell me about your idea.</label>
+                            <input type="text" class="idea" name="youridea">
                         </div>
 
                         <div class="form-group">
-                            <label for="your email" class="label"> Your Email.</label>
-                            <input type="email" id="email" name="your Email">
+                            <label for="your budget" class="label"> Your Budget.</label>
+                            <input type="text" class="budget">
 
                         </div>
 
                         <div class="form-group">
-                            <label for="your company" class="label"> Your Company.</label>
-                            <input type="text" id="company" name="Your Company">
+                            <label for="your company" class="label"> Your company.</label>
+                            <input type="text" class="company" name="Your Company">
 
                         </div>
 
                         <div class="form-group">
                             <label for="your message" class="label">Your Message.</label>
-                            <textarea type="text" id="message" name="Your Message"></textarea>
+                            <input type="email" class="email" name="Your Email">
 
                         </div>
-                        <button type="submit">SUBMIT.</button>
+                        <button class="sub-button" type="submit">SUBMIT.</button>
                     </form>
 
                 </div>
+                <div class="email-container">
+                <span class="span">OR</span>
+
+
+                <div class="my-email">
+                    You can contact me at Baileysam190@gmail.com!.
+                </div>
+            </div>
+
+
+
+
+
             </section>
 
 
