@@ -10,4 +10,7 @@ Images compressed for the web using tinyPNG.com
 
 Fonts downloaded and stored in folder 
 
-Short animation
+Short animation to saturate color
+
+Dummy content as this is first project
+
