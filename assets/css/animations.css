@@ -7,6 +7,18 @@
     }
 }
 
+@keyframes wobble {
+    0% {
+        transform: translateX(-4px);
+    }
+    50% {
+        transform: translateX(4px);
+    }
+    100% {
+        transform: translateX(-4px);
+    }
+}
+
 
 /* A small animation that saturates the color back in to the image */
 
