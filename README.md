@@ -5,6 +5,31 @@ Single-Page HTML5/CSS3 portfolio website for my web projects.
 ## The Purpose Of The Website?. ##
 The purpose of this portfolio website Is to showcase my work and skills to anybody who might want a website made for there company.
 
+## User Stories ##
+
+For first time users i would like them to be able to:
+
+
+* Easily navigate around the site.
+* Clearly see my work/projects.
+* Easily contact me or enquire about work
+* Wow them with the portfolio because that would be the first of my projects they would see.
+
+
+For returning users:
+
+
+* Be able to see any work i might have done for them displayed nice
+* Again be able to navigate easily and contact me should they have anymore questions
+
+
+  
+
+## Wireframes ##
+![My wireframe](assets/images/README.md/wireframe.png)
+
+My wireframe was made using Figma.
+
 ## The Layout. ##
 For this site I have chosen a fixed header so that navagation Is easy and possible where ever you are on the page.
 Also the footer contains quick links around the site, as well as the links to social pages.
@@ -41,3 +66,20 @@ On the visit site buttons i have added a hover effect where the button changes c
 
 ## Iconography ##
 For my icons I am using the FontAwsome icon library, I have used their icons to reinforce what each section is about on the page. I have also used their icons for links to my social pages in the footer.
+
+## Typogrophy ##
+For my main headers i have used a bold JosefinSans because i think it really stands out and looks really nice on the page. For any other text i have used a nice light Mulish, agai i think this is a nice easy font to read and looks good on the page. I have used the two different font weights so users can easily see the differnce between headers and normal text.
+
+## Testing ##
+![Testing](assets/images/README.md/testing1.png)
+
+![Testing](assets/images/README.md/testing2.png)
+
+To fix this i changed my ```<button>``` elements to ```<div>``` elements so i could keep them wrapped in my ```<a>```. I also gave my labels better names which sorted the last problem out now when I validate my code i see this.
+
+![Fixing](assets/images/README.md/test-fix.png)
+
+
+
+## Deployment ##
+For the deployment of my site i have used GIT pages. First i made my repository on GitHub. Then i linked my project from visual studio code to my repo using the git commands. Once this was done my repo was set up and once i had finished the project I pushed this to GitHub pages using the master branch waited a few seconds the page refreshed automatically and there was a live link to my published site.
