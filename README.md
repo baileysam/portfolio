@@ -79,6 +79,20 @@ To fix this i changed my ```<button>``` elements to ```<div>``` elements so i co
 
 ![Fixing](assets/images/README.md/test-fix.png)
 
+When I tested my CSS there were no erros found.
+
+![Testing](assets/images/README.md/test-css.png)
+
+I also used google lighthouse to check the sites preformance and accesability on mobile and desktop.
+
+Here is mobile.
+![Testing](assets/images/README.md/lighthouse-mobile.png)
+
+Here is desktop.
+![Testing](assets/images/README.md/lighthouse-desktop.png)
+
+
+
 
 
 ## Deployment ##
